@@ -1,9 +1,9 @@
-package ia.development.model.service;
+package ia.development.service;
 
 import ia.development.model.BaseEntity;
 import ia.development.model.dto.DTO;
 import ia.development.model.mapper.BaseMapper;
-import ia.development.model.repository.CustomRepository;
+import ia.development.repository.CustomRepository;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

@@ -1,4 +1,4 @@
-package ia.development.model.service;
+package ia.development.service;
 
 import ia.development.model.BaseEntity;
 import ia.development.model.dto.DTO;

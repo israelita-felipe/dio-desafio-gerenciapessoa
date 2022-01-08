@@ -1,4 +1,4 @@
-package ia.development.model.service;
+package ia.development.service;
 
 import java.util.UUID;
 
@@ -6,7 +6,7 @@ import ia.development.model.BaseEntity;
 import ia.development.model.dto.DTO;
 import ia.development.model.dto.MessageResponseDTO;
 import ia.development.model.dto.MessageResponseDTO.Action;
-import ia.development.model.service.exception.EntityNotFoundException;
+import ia.development.model.exception.EntityNotFoundException;
 
 public interface RegistryService<T extends BaseEntity, D extends DTO<T>> extends BaseService<T, D> {
 
