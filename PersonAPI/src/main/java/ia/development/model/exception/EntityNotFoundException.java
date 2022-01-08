@@ -1,4 +1,4 @@
-package ia.development.model.service.exception;
+package ia.development.model.exception;
 
 import java.util.UUID;
 

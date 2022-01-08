@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import ia.development.model.Person;
 import ia.development.model.dto.PersonDTO;
-import ia.development.model.service.Service;
+import ia.development.service.Service;
 
 @RestController
 @RequestMapping("/api/v1/person")

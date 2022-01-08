@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 import ia.development.model.BaseEntity;
 import ia.development.model.dto.DTO;
-import ia.development.model.service.exception.EntityNotFoundException;
+import ia.development.model.exception.EntityNotFoundException;
 
 public interface ListController<T extends BaseEntity, D extends DTO<T>> extends BaseController<T, D> {
 

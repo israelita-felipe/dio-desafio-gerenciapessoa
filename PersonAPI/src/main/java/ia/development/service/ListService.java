@@ -1,4 +1,4 @@
-package ia.development.model.service;
+package ia.development.service;
 
 import java.util.List;
 import java.util.UUID;
@@ -7,7 +7,7 @@ import org.springframework.data.domain.PageRequest;
 
 import ia.development.model.BaseEntity;
 import ia.development.model.dto.DTO;
-import ia.development.model.service.exception.EntityNotFoundException;
+import ia.development.model.exception.EntityNotFoundException;
 
 public interface ListService<T extends BaseEntity, D extends DTO<T>> extends BaseService<T, D> {
 

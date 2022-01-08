@@ -1,4 +1,4 @@
-package ia.development.model.repository;
+package ia.development.repository;
 
 import java.util.UUID;
 
